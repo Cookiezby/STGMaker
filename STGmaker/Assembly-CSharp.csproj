@@ -47,13 +47,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\BulletEnity.cs" />
-     <Compile Include="Assets\EnemyEnity.cs" />
      <Compile Include="Assets\EnemyManager.cs" />
      <Compile Include="Assets\EnemyManager_Name.cs" />
      <Compile Include="Assets\Enemy_Name.cs" />
+     <Compile Include="Assets\Enity.cs" />
      <Compile Include="Assets\EventManager.cs" />
      <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\Global.cs" />
+     <Compile Include="Assets\ShootBullet.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

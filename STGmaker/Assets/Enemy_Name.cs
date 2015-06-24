@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Enemy_Name : EnemyEnity{
+public class Enemy_Name : Enity{
+
+	public float _health;
 	
 	void Update () {
 	   if(OutOfScreen()){

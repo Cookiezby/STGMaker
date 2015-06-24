@@ -1,15 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BulletEnity : MonoBehaviour {
+public class BulletEnity : Enity {
 
-	// Use this for initialization
-	void Start () {
+	public float _damage;
 	
+	void Update(){
+
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	void Move(){
+		transform.Translate(Vector3.down*Time.deltaTime*_moveSpeed);
 	}
+
+	void MoveTrace(GameObject target){
+
+	}
+
 }

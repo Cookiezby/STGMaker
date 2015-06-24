@@ -1,12 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnemyEnity : MonoBehaviour {
+public class Enity : MonoBehaviour {
 
 	public float _enityWidth;
 	public float _enityHeight;
 
-	public float _health;
 	public float _moveSpeed;
 
 }
