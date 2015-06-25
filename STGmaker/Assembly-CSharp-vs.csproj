@@ -54,6 +54,8 @@
      <Compile Include="Assets\EventManager.cs" />
      <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\Global.cs" />
+     <Compile Include="Assets\Player.cs" />
+     <Compile Include="Assets\PlayerManager.cs" />
      <Compile Include="Assets\ShootBullet.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
